@@ -1,9 +1,9 @@
 function convertTemperature() {
-    // Get input values
+    
     const tempInput = parseFloat(document.getElementById('temperature').value);
     const unit = document.getElementById('unit').value;
 
-    // Validate input
+   
     if (isNaN(tempInput)) {
         alert('Please enter a valid number for temperature');
         return;
@@ -11,7 +11,7 @@ function convertTemperature() {
 
     let celsius, fahrenheit, kelvin;
 
-    // Convert from the original unit to all others
+    
     switch(unit) {
         case 'celsius':
             celsius = tempInput;
@@ -30,11 +30,11 @@ function convertTemperature() {
             break;
     }
 
-    // Display results with 2 decimal places
+    
     document.getElementById('celsius-result').textContent = celsius.toFixed(2);
     document.getElementById('fahrenheit-result').textContent = fahrenheit.toFixed(2);
     document.getElementById('kelvin-result').textContent = kelvin.toFixed(2);
 
-    // Show results section
+   
     document.getElementById('results').style.display = 'block';
 }
