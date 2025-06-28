@@ -1,7 +1,7 @@
 # Temp-converter
 
 
-🌡 Temperature Converter (Java)
+Temperature Converter (Java)
 This is a simple Java program that helps you convert temperatures between Celsius, Fahrenheit, and Kelvin.
 
  What it does:
